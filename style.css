@@ -3,6 +3,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Sen';
 }
 
 /* Banner starts from here */
+.banner-container{
+    max-width: 1920px;
+    height: 850px;
+    background-color: #FCEEF1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 240px 0px;
+    margin: 0 auto;
+    gap: 90px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.banner-p{
+    color: rgba(27, 27, 27, 0.6);
+    font-size: 18px;
+    margin-bottom: 32px;
+    width: 80%;
+}
+.primary-btn{
+    background-color: #E65274;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.primary-btn:hover{
+    background-color: #c01c42;
+}
+.banner-photo{
+    height: 800px;
+    width: 635px;
+    margin-top: 29px;
+}
+
+/* Featured starts from here */
+.featured-container{
+    padding: 170px 0px 120px;
+    margin: 0 auto;
+    height: 1539px;
+    text-align: center;
+}
+.featured-title{
+    color: #272727;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.featured-p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
