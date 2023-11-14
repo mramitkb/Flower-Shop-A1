@@ -25,7 +25,7 @@
     margin-bottom: 32px;
 }
 .banner-p{
-    color: rgba(27, 27, 27, 0.6);
+    color: rgba(20, 20, 20, 0.6);
     font-size: 18px;
     margin-bottom: 32px;
     width: 80%;
@@ -51,9 +51,9 @@
 
 /* Featured starts from here */
 .featured-container{
-    padding: 170px 0px 120px;
+    padding-top: 170px;
     margin: 0 auto;
-    height: 1539px;
+    max-height: 1539px;
     text-align: center;
 }
 .featured-title{
@@ -62,52 +62,78 @@
     margin-bottom: 24px;
 }
 .featured-p{
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(20, 20, 20, 0.6);
     text-align: center;
     font-size: 18px;
 }
-.three-boxes{
+.cards-container{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
     gap: 24px;
-    margin-top: 48px;
-}
-.box1{
-    height: 538px;
-    width: 464px;
-    border: none;
-    border-radius: 300px 300px 0px 0px;
-    background-color: #F2DEE7;
-}
-.box2{
-    height: 538px;
-    width: 464px;
-    border: none;
-    border-radius: 300px 300px 0px 0px;
-    background-color: #DAEFF1;
-}
-.box3{
-    height: 538px;
-    width: 464px;
-    border: none;
-    border-radius: 300px 300px 0px 0px;
-    background-color: #E3ECDB;
-}
-.box-img1{
-    margin: 110px 76px 0px;
-}
-.box-img2{
-    margin: 117px 48px 50px;
-}
-.box-img3{
-    margin: 67px 75px 0px;
-}
-.name{
-    text-decoration: underline;
-    margin-top: 20px;
-    color: #272727;
     text-align: center;
-    font-size: 18px;
-    font-weight: 600;
+    text-decoration: underline;
+    padding-top: 48px;
+    max-width: 1440px;
+    flex-shrink: 0;
+    margin: 0 auto;
 }
+.pink{
+    background-color: #F2DEE7;
+    width: 400px;
+    height: 430px;
+    flex-shrink: 0;
+    padding: 110px 78px 0px;
+    border: none;
+    border-radius: 300px 300px 0px 0px;
+    background-repeat: no-repeat;
+}
+.sun{
+    background-color: #DAEFF1;
+    width: 400px;
+    height: 430px;
+    flex-shrink: 0;
+    padding: 117px 47px 50px;
+    border: none;
+    border-radius: 300px 300px 0px 0px;
+    background-repeat: no-repeat;
+}
+.yellow{
+    background-color: #E3ECDC;
+    width: 400px;
+    height: 430px;
+    flex-shrink: 0;
+    padding: 67px 75px 0px;
+    border: none;
+    border-radius: 300px 300px 0px 0px;
+    background-repeat: no-repeat;
+}
+.card-p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.support-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #F4F4F4;
+    max-width: 1440px;
+    max-height: 250px;
+    flex-shrink: 0;
+    margin: 128px auto;
+    padding: 85px 175px;
+    border-radius: 10px;
+}
+.icon{
+    height: 80px;
+    width: 80px;
+}
+.support-p{
+    font-size: 20px;
+    color: #262626;
+}
+
+/* Deals starts from here */
