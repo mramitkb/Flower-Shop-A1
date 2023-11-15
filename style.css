@@ -132,8 +132,57 @@
     width: 80px;
 }
 .support-p{
-    font-size: 20px;
+    padding-top: 5px;
+    font-size: 18px;
     color: #262626;
 }
 
 /* Deals starts from here */
+.deal-container{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #FCEEF1;
+}
+.deal-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.off{
+    color: #E65274;
+}
+.deal-p{
+    padding: 15px 0px;
+}
+.deal-img{
+    height: 300px;
+    width: 250px;
+}
+
+/* Instagram starts from here */
+.instagram-container{
+    padding: 128px 240px;
+    margin: 0 auto;
+}
+.instagram-info{
+    text-align: center;
+}
+.instagram-title{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+.instagram-flowers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    gap: 10px;
+}
+.four{
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+/* Coupon starts from here */
